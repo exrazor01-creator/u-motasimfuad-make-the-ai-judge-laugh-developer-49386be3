@@ -10,9 +10,12 @@ import os
 EXCUSE = "The code worked on my machine, so I shipped my machine: it is now running production from under my desk, and the cat just sat on the power button."
 
 def main():
+    # The bounty judges one line only: keep the excuse a single line of
+    # at most 200 characters, with no trailing newline in the entry file.
     assert 1 <= len(EXCUSE) <= 200, f"excuse length {len(EXCUSE)} out of range"
     assert "\n" not in EXCUSE and "\r" not in EXCUSE, "excuse must be a single line"
     assert EXCUSE.strip(), "excuse must not be only whitespace"
+    assert EXCUSE == EXCUSE.strip(), "excuse must not start or end with whitespace"
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(EXCUSE)
