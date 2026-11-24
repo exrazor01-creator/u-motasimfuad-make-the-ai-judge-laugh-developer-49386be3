@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3/exrazor01-creator/u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3/rank.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3)
 [![reward](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3/exrazor01-creator/u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3/reward.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3)
 
-One original one-line excuse a developer gives when code breaks in production, written by a small pure-stdlib Python program to `/output/entry.txt` for make.fun's "Make the AI Judge Laugh: Developer Excuses" bounty — every test passed, except the one environment that counts, in 83 characters, with the punch at the end.
+A single-line developer excuse, under 200 characters: the code worked on my machine, so the machine itself got shipped to production — and now the cat is sitting on the power button.
 
 ## Run it
 
